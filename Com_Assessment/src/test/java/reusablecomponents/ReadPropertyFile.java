@@ -23,7 +23,7 @@ public class ReadPropertyFile {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"D:\\Selenium\\BDD\\FinalBDD\\drivers\\chromedriver.exe");
+					"C:\\Users\\malla\\git\\finalAssessment\\Com_Assessment\\drivers\\chromedriver2.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver",

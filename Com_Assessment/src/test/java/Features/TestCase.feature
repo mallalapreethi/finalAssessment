@@ -10,9 +10,9 @@ And Close the driver
 
 
 Examples: 
-|email  					|password		|
-|preethi@gmail.com			|12345			|
-|sony@gmail.com		|67897			|
+|email  					   |password		|
+|preethi@gmail.com	 |12345			  |
+|sony@gmail.com		   |67897			  |
 
 
 
@@ -44,10 +44,10 @@ Then Enter "preethi@gmail.com" in the box
 And click on connect
 And Close the driver
 
-Scenario: Marvel Links
+Scenario: New Links
 Given Initialize browser with chrome
 And Navigate to "https://www.bigsmall.in/" site
-And click on Marvel
+And click on NewLinks
 Then Check Numberof links in the page
 And Close the driver
 

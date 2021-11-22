@@ -11,6 +11,7 @@ import org.testng.Assert;
 import reusablecomponents.ReadPropertyFile;
 import uistore.SearchPageDetails;
 import uistore.SigninPageDetails;
+import utilities.TakeScreenShot;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -52,6 +53,14 @@ public class StepDefination extends ReadPropertyFile {
 	}
 	@And("^Close the driver$")
 	public void close_the_driver() throws Throwable {
+        TakeScreenShot r = new TakeScreenShot();
+		
+		try {
+			r.getScreenshot("screenshots");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		driver.close();
 
 	}
@@ -152,8 +161,8 @@ public class StepDefination extends ReadPropertyFile {
 	
 	
 	
-	@And("^click on Marvel$")
-	public void click_on_marvel() throws Throwable {
+	@And("^click on NewLinks$")
+	public void click_on_NewLinks() throws Throwable {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id=\"myheader\"]/div[1]/div/div/ul/li[3]/a")).click();
 	}
