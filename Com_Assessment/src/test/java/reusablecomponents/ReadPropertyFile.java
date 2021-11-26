@@ -16,23 +16,22 @@ public class ReadPropertyFile {
 	public WebDriver DriverInitialisation() throws IOException {
 		// TODO Auto-generated method stub
 		p = new Properties();
-		FileInputStream fis = new FileInputStream(
-				"D:\\Selenium\\BDD\\FinalBDD\\testdata\\configure.properties");
+		FileInputStream fis = new FileInputStream("./testdata/configure.properties");
 		p.load(fis);
 		String browserName = p.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\malla\\git\\finalAssessment\\Com_Assessment\\drivers\\chromedriver2.exe");
+					"./drivers/chromedriver2.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
-					"D:\\Selenium\\BDD\\FinalBDD\\drivers\\geckodriver.exe");
+					"./drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			System.setProperty("webdriver.edge.driver",
-					"D:\\Selenium\\BDD\\FinalBDD\\drivers\\msedgedriver.exe");
+					"./drivers/msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
 		return driver;

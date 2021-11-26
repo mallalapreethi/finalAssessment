@@ -1,0 +1,27 @@
+2021-11-26 11:28:30,436  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:28:39,405  INFO [main] ReadPropertyFile:45 - click on sign in
+2021-11-26 11:28:39,406  INFO [main] ReadPropertyFile:52 - sign in page details
+2021-11-26 11:28:43,866  INFO [main] ReadPropertyFile:57 - clicked on signinButton
+2021-11-26 11:29:07,875  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:29:12,202  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:29:24,039  INFO [main] ReadPropertyFile:45 - click on sign in
+2021-11-26 11:29:24,040  INFO [main] ReadPropertyFile:52 - sign in page details
+2021-11-26 11:29:25,247  INFO [main] ReadPropertyFile:57 - clicked on signinButton
+2021-11-26 11:29:46,778  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:29:49,846  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:29:58,436  INFO [main] ReadPropertyFile:80 - clicked on searchbar
+2021-11-26 11:30:33,393  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:30:36,196  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:31:16,338  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:31:19,398  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:31:50,189  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:31:54,063  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:32:09,280  INFO [main] ReadPropertyFile:184 - gave links sucessfully
+2021-11-26 11:32:37,714  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:32:40,593  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:33:22,303  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:33:25,120  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:34:14,440  INFO [main] ReadPropertyFile:70 - driver closed
+2021-11-26 11:34:27,469  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:34:39,268  INFO [main] ReadPropertyFile:30 - driver intialized
+2021-11-26 11:35:21,930  INFO [main] ReadPropertyFile:70 - driver closed

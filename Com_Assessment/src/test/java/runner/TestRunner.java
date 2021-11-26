@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-		features="D:\\Selenium\\BDD\\FinalBDD\\src\\test\\java\\Features",
+		features="./src/test/java/Features",
 		glue="StepDefinations")
 public class TestRunner extends AbstractTestNGCucumberTests{
 
